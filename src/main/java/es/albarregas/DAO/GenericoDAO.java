@@ -48,7 +48,7 @@ public class GenericoDAO<T> implements IGenericoDAO<T> {
         List<T> listadoResultados = null;
         try {
             startTransaction();
-            listadoResultados = sesion.createQuery(" from " + claseEntidad.getSimpleName()).list();
+            listadoResultados = sesion.createQuery(" FROM " + claseEntidad.getSimpleName()).list();
         } catch (HibernateException he) {
             this.handleExcepcion(he);
         } finally {

@@ -28,7 +28,7 @@ public class UsuarioDAO implements IUsuarioDAO {
         Usuario usuario = null;
         try {
             startTransaction();
-            usuario = (Usuario) sesion.createQuery("from Usuario u where u.email= :email")
+            usuario = (Usuario) sesion.createQuery("FROM Usuario u WHERE u.email= :email")
                     .setParameter("email", email)
                     .uniqueResult();
         } catch (Exception e) {

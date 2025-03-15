@@ -11,7 +11,7 @@
 <c:import url="/INC/header.jsp"/>
 <h1 class="fw-bold text-center mb-4 mt-5 text-white">Error 404</h1>
 <main class="d-flex justify-content-center align-items-center mt-5 p-3">
-    <div class="container text-center py-5">
+    <div class="container text-center py-5 bg-white">
         <h1 class="display-1 fw-bold text-danger">404</h1>
         <p class="lead">Página no encontrada</p>
     </div>

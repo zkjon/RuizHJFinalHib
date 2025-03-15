@@ -6,7 +6,7 @@ import java.util.Objects;
 import java.util.Set;
 
 @Entity
-@Table(name = "Ciclos")
+@Table(name = "ciclos")
 public class Ciclo implements Serializable {
     @Id
     @Column(name = "IdCiclo", length = 7)
